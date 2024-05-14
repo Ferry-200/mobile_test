@@ -11,9 +11,9 @@ jobs:
         with:
           channel: stable
       - run: flutter pub get
-      - run: flutter build ios --release --no-codesign
+      - run: flutter build ipa
       - name: Upload
         uses: actions/upload-artifact@v4
         with:
           name: release
-          path: build/ios/iphoneos
+          path: build/ios/ipa
