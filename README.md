@@ -1,3 +1,3 @@
 # mobile_test
 
-A new Flutter project.
+二维码扫描、TOTP
